@@ -45,9 +45,9 @@ function displayForecast(data) {
             </div>
           </div>
           <div class="custom">${current.condition.text}</div>
-          <span><img src="./imgs/icon-umberella.png" alt="Rain" />20%</span>
-          <span><img src="./imgs/icon-wind.png" alt="Wind" />${current.wind_kph}km/h</span>
-          <span><img src="./imgs/icon-compass.png" alt="Direction" />${current.wind_dir}</span>
+          <span><img src="../weather-app/imgs/icon-umberella.png" alt="Rain" />20%</span>
+          <span><img src="../weather-app/imgs/icon-wind.png" alt="Wind" />${current.wind_kph}km/h</span>
+          <span><img src="../weather-app/imgs/icon-compass.png" alt="Direction" />${current.wind_dir}</span>
         </div>
       </div>
     </div>`;
@@ -69,9 +69,9 @@ function displayForecast(data) {
             </div>
             <div class="degree">${dayData.day.avgtemp_c}<sup>o</sup>C</div>
             <div class="custom">${dayData.day.condition.text}</div>
-            <span><img src="./imgs/icon-umberella.png" alt="Rain" />20%</span>
-            <span><img src="./imgs/icon-wind.png" alt="Wind" />${dayData.day.maxwind_kph}km/h</span>
-            <span><img src="./imgs/icon-compass.png" alt="Direction" />${data.current.wind_dir}</span>
+            <span><img src="../weather-app/imgs/icon-umberella.png" alt="Rain" />20%</span>
+            <span><img src="../weather-app/imgs/icon-wind.png" alt="Wind" />${dayData.day.maxwind_kph}km/h</span>
+            <span><img src="../weather-app/imgs/icon-compass.png" alt="Direction" />${data.current.wind_dir}</span>
           </div>
         </div>
       </div>`;
