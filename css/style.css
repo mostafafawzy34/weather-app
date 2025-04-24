@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: url('../imgs/banner.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #1e1f26;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white;
+    margin: 0 15px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #00bfff;
+  }
+  
+  .search-container {
+    margin-top: 60px;
+  }
+  
+  .search-bar input::placeholder {
+    color: #ccc;
+  }
+  
+
+  
+  .forecast {
+    background-color: #1e1f26;
+    color: white;
+    height: 430px;
+    
+    text-align: center;
+  }
+
+  
+  .forecast-header {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .forecast-content .degree {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  .forecast-content .custom {
+    font-size: 16px;
+    color: #00bfff;
+    margin: 10px 0;
+  }
+  
+  .forecast span {
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .forecast span img {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
